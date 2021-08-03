@@ -1,0 +1,18 @@
+versin: 0.2
+
+phases: 
+  pre_build:
+    commands:
+      - echo installing node packages...
+      - npm install
+  build:
+    commands:
+      - echo testing...
+      - yarn test 
+      - echo building...
+      - npm run build
+artifacts:
+  files:
+    - "**/*"
+  discard-paths: no
+  base-directory: build
