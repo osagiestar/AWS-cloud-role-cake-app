@@ -4,9 +4,11 @@ version: 0.2
 phases:
   pre_build:
     commands:
+      - echho Pre-build initializing ..
       - npm install
   build:
     commands:
+      - echo Build is bring performed ;;;
       - npm run build
 
 artifacts:
