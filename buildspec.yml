@@ -8,9 +8,12 @@ phases:
       - npm install
   build:
     commands:
-      - echo Build is bring performed...
+      - echo Build is being performed...
       - npm run build
-
+  test:
+    commands:
+      - echo Testing for performance...
+      - npm test
 artifacts:
   files:
     - '**/*'
