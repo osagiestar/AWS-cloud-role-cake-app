@@ -12,7 +12,7 @@ phases:
     commands:
       - echo Build is being performed...
       - npm run build
-  post-build:
+  post_build:
     commands:
       - echo Testing for performance...
       - npm test
