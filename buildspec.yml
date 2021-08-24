@@ -10,8 +10,6 @@ phases:
     commands:
       - echo Build is being performed...
       - npm run build
-      - echo Testing for performance...
-      - npm test
 artifacts:
   files:
     - '**/*'
