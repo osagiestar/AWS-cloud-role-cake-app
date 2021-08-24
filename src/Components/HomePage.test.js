@@ -10,3 +10,8 @@ const allCakeIds = data.map(item => item.id);
 test("first cake has a property id as numbers", () => {
     expect(allCakeIds).toEqual([...allCakeIds])
 })
+
+const firstCake = data[0].id;
+test("first cake has a property id value of 1", () => {
+    expect(firstCake).toBe(1)
+})
