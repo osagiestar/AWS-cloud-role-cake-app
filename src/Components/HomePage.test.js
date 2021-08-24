@@ -21,3 +21,10 @@ test("all cakes have the property image", () => {
     const allCakesHasAnImage = data.map(item => item.image); 
     expect(allCakesHasAnImage).toEqual([...allCakesHasAnImage])
 })
+
+// price test
+const priceCheck = data[0].price;
+test("confirm the price for the 54th Birthday Cake", () => {
+    expect(priceCheck).toBe(50)
+})
+
