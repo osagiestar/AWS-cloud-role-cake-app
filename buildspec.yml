@@ -1,7 +1,7 @@
 
 version: 0.2
 
-run-as: Osagie devOps
+run-as: osagie
 
 phases:
   pre_build:
