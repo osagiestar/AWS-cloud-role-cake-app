@@ -1,8 +1,6 @@
 
 version: 0.2
 
-run-as: osagie
-
 phases:
   pre_build:
     commands:
