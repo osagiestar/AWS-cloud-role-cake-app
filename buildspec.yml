@@ -1,6 +1,8 @@
 
 version: 0.2
 
+run-as: Osagie devOps
+
 phases:
   pre_build:
     commands:
@@ -10,7 +12,7 @@ phases:
     commands:
       - echo Build is being performed...
       - npm run build
-  test:
+  post-build:
     commands:
       - echo Testing for performance...
       - npm test
