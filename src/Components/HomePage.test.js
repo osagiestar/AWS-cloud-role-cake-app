@@ -15,3 +15,9 @@ const firstCake = data[0].id;
 test("first cake has a property id value of 1", () => {
     expect(firstCake).toBe(1)
 })
+
+
+test("all cakes have the property image", () => {
+    const allCakesHasAnImage = data.map(item => item.image); 
+    expect(allCakesHasAnImage).toEqual([...allCakesHasAnImage])
+})
